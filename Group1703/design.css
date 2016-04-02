@@ -1,0 +1,413 @@
+/* CSS is in alphabetical order based upon what the style is being applied to*/
+
+/*Styles applying directly to tags*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #CF1302;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	background: #E0E0E0;
+	font-size: 12pt;
+	color: #808080;
+	line-height: 1.75em;
+}
+
+body #results{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body,input {
+	font-family: Tahoma, sans-serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1{
+	
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+/*Styles applying to specific IDs*/
+
+#content {
+	padding: 0;
+	width: 640px;
+	float: left;
+
+}
+
+#footer {
+	padding: 40px 0 95px 0;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+
+#header {
+	padding: 35px;
+	color: #FFFFFF;
+	position: relative;
+	height: 130px;
+	border-top: solid 1px #F7F1E8;
+	background: #7D0862 repeat-x top left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+#homePic {
+	border-radius: 5px;
+}
+
+#logo {
+	line-height: 149px;
+	top: 0;
+	left: 35px;
+	height: 149px;
+	position: absolute;
+	text-shadow: 0px 2px 1px #3F372B;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	font-family: Oswald, sans-serif;
+	font-size: 3.25em;
+}
+
+#loggedin {
+	float: right;
+	margin-right: 0;
+	padding-right: 20px;
+}
+
+/*Style for the navigation menu*/
+
+#menu {
+	position: absolute;
+	line-height: 55px;
+	width: 910px;
+	background: #D904A7 repeat-x top left;
+	font-family: Oswald, sans-serif;
+	left: 0;
+	bottom: 0;
+	padding: 0 35px 0 35px;
+	border-top: solid 1px #FC403C;
+	border-bottom: solid 1px #B60000;
+	height: 55px;
+	margin: 0 0 0 0;
+}
+
+#menu a {
+	color: #FFFFFF;
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-shadow: 0px 1px 1px #590200;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0 15px 0 15px;
+	display: inline;
+}
+
+#menu ul li.first {
+	padding-left: 0;
+}
+
+/*End of style for navigation menu*/
+
+#label {
+	color: #808080;
+}
+
+#page {
+	width: 910px;
+	color: #333333;
+	position: relative;
+	border-top: solid 1px #FFFFFF;
+	padding: 45px 35px 15px 35px;
+	background: #FFFFFF repeat-x top left;
+	margin: 0 0 0 0;
+	border-bottom: solid 5px #D0D0D0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#page a {
+	color: #1C1C1C;
+}
+
+#page strong {
+	color: #121212;
+}
+
+#password {
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#qsgo {
+	display: inline-block;
+	position: relative;
+	right: -150px;
+	float: right;
+	margin-top: 20px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	font-family: Oswald, sans-serif;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	background-color: darkorchid;
+	text-shadow: 0px 1px 1px #590200;
+	border-radius: 5px;
+}
+
+#qsearch {
+	display: inline-block;
+	position: relative;
+	left: -40px;
+	float: right;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#register {
+	color: white;
+	font-size: 10px;
+	position: absolute;
+	float: right;
+	right: 20px;
+	top: 110px;
+	overflow: hidden;
+	line-height: 1em;
+}
+
+/*Style for the results table following a search*/
+
+#borrow {
+	width: 60px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	font-family: Oswald, sans-serif;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	background-color: darkorchid;
+	text-shadow: 0px 1px 1px #590200;
+	border-radius: 5px;
+}
+
+#results {
+	border-collapse: collapse;
+	border-width: 0;
+	border-radius: 5px;
+	display: block;
+}
+
+#results td{
+	padding: 5px 5px 5px 5px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#results th {
+	background-color: lavender;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#results th, #results td{
+	border-bottom: 1px solid #ddd;
+	border-spacing: 0;
+}
+
+#results tr:hover {
+	background-color: lavender;
+	border-color: lavender;
+	border-bottom-width: 0;
+}
+
+#resultsdiv {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+/*End of results table styling */
+
+/*Style for the advanced search page */
+
+#search {
+	line-height: 159px;
+	position: absolute;
+	top: 0;
+	right: 35px;
+	height: 159px;
+}
+
+#search input.form-submit {
+	border: 0;
+	border-top: solid 1px #FC403C;
+	border-bottom: solid 1px #B60000;
+	font-family: Oswald, sans-serif;
+	margin-left: 1em;
+	color: #FFFFFF;
+	padding: 2px 8px 3px 8px;
+	background: #CF1302;
+	text-shadow: 0px 1px 1px #590200;
+	text-transform: lowercase;
+	border-radius: 5px;
+	z-index: 50;
+}
+
+#search input.form-text {
+	background: #5C4D37;
+	border: 0;
+	border-bottom: solid 1px #A89983;
+	padding: 5px 8px 5px 8px;
+	color: #333333;
+	border-radius: 5px;
+}
+
+/*End of advanced search styling */
+
+#sidebar {
+	padding: 0;
+	width: 250px;
+	margin: 0 0 0 660px;
+}
+
+#username {
+	border-radius: 5px;
+}
+
+#wrapper {
+	margin: 90px auto 0 auto;
+	width: 980px;
+	position: relative;
+}
+
+
+#flog {
+	float: left;
+}
+
+#page a {
+	color: #1C1C1C;
+}
+
+/*Login Field on homepage */
+
+#logins {
+	margin-top: 20px;
+	color: #808080;
+}
+
+#loginf {
+	border-style: solid;
+	border-radius: 5px;
+	color: #808080;
+}
+
+
+
+#button {
+	width: 50px;
+	float: right;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	font-family: Oswald, sans-serif;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	background-color: darkorchid;
+	text-shadow: 0px 1px 1px #590200;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#logoutButton{
+	width: 60px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	font-family: Oswald, sans-serif;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	background-color: darkorchid;
+	text-shadow: 0px 1px 1px #590200;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+/* End of login field styling */
+
+/* Home Page Sliding image CSS */
+
+@keyframes slidy {
+	0% { left: 0%; }
+	20% { left: -100%; }
+	40% { left: -200%; }
+	60% { left: 0%; }
+	80% { left: -100%; }
+	90% { left: -200%; }
+	100% { left: 0%; }
+}
+
+div#slider {
+	overflow: hidden;
+}
+
+div#slider figure img {
+	width: 20%; float: left;
+}
+
+div#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 40s slidy infinite;
+}
+/* End of Home Page Sliding image CSS

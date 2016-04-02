@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="design.css"/>
+    <link rel="stylesheet"
+          href="unsemantic-grid-responsive-tablet.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+</head>
+
+
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <h1><strong><font size="20">GameShare RGU</font></strong></h1>
+        </div>
+        <div id="search">
+            <Form Name="login">
+                <div id="login">
+                </div>
+            </form>
+        </div>
+        <div id="menu">
+            <form action="results.php" method="post">
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="Search.php">Search</a></li>
+                    <li>
+                        <input id="qsearch" name="qsearch" type="text" placeholder="I want to borrow..."/><input id="qsgo" type="submit"  value="Go">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <div id="page">
+        <div id="">
+            <table cellpadding="10" cellspacing="20">
+                <tr>
+                    <td>
+
+                        <div id="flog">
+
+                            <section class="grid-75" id="content1">
+                                <article id="welcome">
+                                    <h2>Life's Short. Play More.</h2>
+
+                                    <h3>RGU's Own Game-Sharing Service</h3>
+
+                                    <p>Since 2016, GameShare has been the only place for RGU students to share games and
+                                        keep costs down.</p>
+                                </article>
+                            </section>
+                            <br>
+                            <section class="grid-65" id="logins">
+
+                                
+
+                            <form action='login.php' method='post' accept-charset='UTF-8'>
+                                <fieldset id="loginf">
+                                    <legend><strong><font size="+3">Welcome Back </font></strong></legend>
+
+                                    <input type='hidden' name='submitted' id='submitted' value='1'/><br>
+
+                                    &nbsp;<label for='username'>Username*:</label>
+                                    <input type='text' name='username' id='username' maxlength="50"/><br><br>
+
+                                    &nbsp;<label for='password'>Password*:</label>
+                                    <input type='password' name='password' id='password' maxlength="50"/><br><br>
+
+                                    <section><input id="button" type='submit' name='Login' value='Login'></section>
+
+                                </fieldset>
+                            </form>
+                            </section>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="homepic">
+
+                            <div id="slider">
+                                <figure>
+                                    <img src="images/ps.jpg" alt="PLAYSTATION">
+                                    <img src="images/wi.jpg" alt="WII">
+                                    <img src="images/xb.png" alt="XBOX">
+                                </figure>
+                            </div>
+
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+    <div id="footer">
+        &copy; 2016. All rights reserved. Design by <strong>GROUP C</strong>.
+    </div>
+</div>
+</body>
+</html>
